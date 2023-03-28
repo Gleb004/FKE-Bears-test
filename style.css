@@ -1,0 +1,56 @@
+
+body {
+    background: url('bck_.jpg');
+    background-size: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.Mb {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.1em;
+    border-radius: 0.2em;
+    border: 0.1em solid background: #21398a;
+    color: black;
+    background: none;
+    margin-left: 47.5%;
+    margin-top: 30%;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: 0.2s;
+}
+
+.Mb:hover {
+    transition: 0.3s;
+    background: #21398a;
+    color: white;
+    transform: scale(1.1);
+}
+
+.in {
+    margin-top: 1%;
+    text-align: center;
+    margin-left: 48.5%;
+    width: 8%;
+}
+
+.open {
+    position: relative;
+    background: url("opensea.png");
+    background-size: 100%;
+    padding: 2%;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    border: none;
+}
+
+.twitter {
+    background: url("twitter.png");
+    background-size: 100%;
+    padding: 2%;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1.5%;
+    border: none;
+}
